@@ -145,7 +145,7 @@ header .fixed {
 /* Chỉnh sửa ảnh nền  */
 
 .slide-bg {
-    max-width: 100%;
+    min-width: 100%;
     top: 0;
     position: fixed;
     text-align: center;
@@ -153,7 +153,7 @@ header .fixed {
 
 .slide-img-bg {
     height: 750px;
-    max-width: 100%;
+    min-width: 100%;
     margin-top: 0px;
     margin-left: 0px;
     position: relative;
@@ -1007,6 +1007,7 @@ input[type="submit"]:hover {
 }
 
 .scroll-up {
+    display: none;
     position: fixed;
     bottom: 15vh;
     right: 50px;
